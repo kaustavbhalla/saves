@@ -1,0 +1,538 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "USICT Cybersecurity Club, home" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+      - text: USICT Cybersec
+    - navigation "Main" [ref=e7]:
+      - link "Events" [ref=e8] [cursor=pointer]:
+        - /url: events.html
+      - link "Team" [ref=e9] [cursor=pointer]:
+        - /url: team.html
+      - link "About" [ref=e10] [cursor=pointer]:
+        - /url: about.html
+      - link "Newsletter" [ref=e11] [cursor=pointer]:
+        - /url: newsletter.html
+      - button "Switch to light" [ref=e12] [cursor=pointer]
+      - link "Join" [ref=e18] [cursor=pointer]:
+        - /url: team.html#join
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - heading "Mind the air gap." [level=1] [ref=e25]:
+        - generic [aria-hidden] [ref=e26]:
+          - generic [ref=e27]: M
+          - generic [ref=e28]: i
+          - generic [ref=e29]: "n"
+          - generic [ref=e30]: d
+        - generic [aria-hidden] [ref=e31]:
+          - generic [ref=e32]: t
+          - generic [ref=e33]: h
+          - generic [ref=e34]: e
+        - generic [aria-hidden] [ref=e35]:
+          - generic [ref=e36]: a
+          - generic [ref=e37]: i
+          - generic [ref=e38]: r
+        - generic [aria-hidden] [ref=e39]:
+          - generic [ref=e40]: g
+          - generic [ref=e41]: a
+          - generic [ref=e42]: p
+          - generic [ref=e43]: .
+      - paragraph [ref=e44]: The cybersecurity club of USICT, GGSIPU. We play capture the flag every Friday, run hands-on workshops, and show anyone on campus how systems break and how to keep them whole.
+      - generic [ref=e45]:
+        - link "Join the club" [ref=e46] [cursor=pointer]:
+          - /url: team.html#join
+        - paragraph [ref=e51]: "Next: Flag Night, Friday 23 October, 5:30 pm"
+      - paragraph [ref=e52]: Move your pointer through the fresco
+    - paragraph [ref=e54]:
+      - generic [ref=e55]: Since
+      - generic [ref=e56]: a
+      - generic [ref=e57]: room
+      - generic [ref=e58]: of
+      - generic [ref=e59]: people
+      - img "Colossus at Bletchley Park, 1945" [ref=e558]
+      - generic [ref=e60]: broke
+      - generic [ref=e61]: Enigma
+      - img "The plugboard of an Enigma machine" [ref=e560]
+      - generic [ref=e62]: ","
+      - generic [ref=e63]: security
+      - generic [ref=e64]: has
+      - generic [ref=e65]: been
+      - generic [ref=e66]: a
+      - generic [ref=e67]: team
+      - generic [ref=e68]: sport.
+      - generic [ref=e69]: We
+      - generic [ref=e70]: are
+      - generic [ref=e71]: that
+      - generic [ref=e72]: room
+      - generic [ref=e73]: at
+      - generic [ref=e74]: USICT
+      - img "Adam's hand from the Sistine Chapel ceiling" [ref=e562]
+      - generic [ref=e75]: .
+    - region "The Creation of Adam" [ref=e76]:
+      - figure "Michelangelo, The Creation of Adam, about 1508–1512" [ref=e77]:
+        - 'img "The Creation of Adam by Michelangelo: two hands reaching across a narrow gap" [ref=e78]'
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - heading "A room for breaking things." [level=2] [ref=e83]:
+          - generic [ref=e85]: A
+          - generic [aria-hidden] [ref=e86]:
+            - generic [ref=e87]: r
+            - generic [ref=e88]: o
+            - generic [ref=e89]: o
+            - generic [ref=e90]: m
+          - generic [aria-hidden] [ref=e91]:
+            - generic [ref=e92]: f
+            - generic [ref=e93]: o
+            - generic [ref=e94]: r
+          - generic [aria-hidden] [ref=e95]:
+            - generic [ref=e96]: b
+            - generic [ref=e97]: r
+            - generic [ref=e98]: e
+            - generic [ref=e99]: a
+            - generic [ref=e100]: k
+            - generic [ref=e101]: i
+            - generic [ref=e102]: "n"
+            - generic [ref=e103]: g
+          - generic [aria-hidden] [ref=e104]:
+            - generic [ref=e105]: t
+            - generic [ref=e106]: h
+            - generic [ref=e107]: i
+            - generic [ref=e108]: "n"
+            - generic [ref=e109]: g
+            - generic [ref=e110]: s
+            - generic [ref=e111]: .
+        - img "Adam's outstretched hand, detail of the Creation of Adam" [ref=e113]
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - heading "Who we are" [level=3] [ref=e116]
+          - paragraph [ref=e117]: "Students from every branch and year at USICT: B.Tech, M.Tech, MCA, and anyone who has wondered what really happens after they press Enter. You need curiosity and a laptop. Experience is optional."
+        - generic [ref=e118]:
+          - heading "What we do" [level=3] [ref=e119]
+          - paragraph [ref=e120]: Weekly CTF practice. Workshops on the web, binaries, forensics and networks. Talks from people who do this for a living. And once a year, a public CTF that we write ourselves.
+        - link "Read our story" [ref=e122] [cursor=pointer]:
+          - /url: about.html
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - heading "Every week" [level=2] [ref=e134]:
+            - generic [aria-hidden] [ref=e135]:
+              - generic [ref=e136]: E
+              - generic [ref=e137]: v
+              - generic [ref=e138]: e
+              - generic [ref=e139]: r
+              - generic [ref=e140]: "y"
+            - generic [aria-hidden] [ref=e141]:
+              - generic [ref=e142]: w
+              - generic [ref=e143]: e
+              - generic [ref=e144]: e
+              - generic [ref=e145]: k
+          - paragraph [ref=e146]: 4 regulars
+        - list [ref=e147]:
+          - listitem [ref=e148]:
+            - img "A punched card" [ref=e150]
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - heading "Flag Night" [level=3] [ref=e153]
+                - generic [ref=e154]: Fri, 5:30 pm
+              - paragraph [ref=e155]: Two hours of capture the flag in the lab. Newcomers pair with someone who has solved the challenge before.
+              - paragraph [ref=e156]: Bring a laptop with a Linux VM.
+          - listitem [ref=e157]:
+            - img "Rows of stored punched-card boxes" [ref=e159]
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - heading "Reading Room" [level=3] [ref=e162]
+                - generic [ref=e163]: Tue, 6 pm
+              - paragraph [ref=e164]: "One write-up or paper, read together and argued over. This month: classic web bugs and how they were found."
+          - listitem [ref=e165]:
+            - img "Enigma plugboard with cables" [ref=e167]
+            - generic [ref=e168]:
+              - generic [ref=e169]:
+                - heading "Lab hours" [level=3] [ref=e170]
+                - generic [ref=e171]: Wed, 4 pm
+              - paragraph [ref=e172]: "Help with the setup nobody explains: Kali, Burp Suite, Ghidra, Wireshark and a sane home lab."
+          - listitem [ref=e173]:
+            - img "Enigma rotors on display" [ref=e175]
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - heading "Help desk" [level=3] [ref=e178]
+                - generic [ref=e179]: Every day
+              - paragraph [ref=e180]: Ask anything in the club Discord. Someone from the core team answers within the day.
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - heading "Every semester" [level=2] [ref=e183]:
+            - generic [aria-hidden] [ref=e184]:
+              - generic [ref=e185]: E
+              - generic [ref=e186]: v
+              - generic [ref=e187]: e
+              - generic [ref=e188]: r
+              - generic [ref=e189]: "y"
+            - generic [aria-hidden] [ref=e190]:
+              - generic [ref=e191]: s
+              - generic [ref=e192]: e
+              - generic [ref=e193]: m
+              - generic [ref=e194]: e
+              - generic [ref=e195]: s
+              - generic [ref=e196]: t
+              - generic [ref=e197]: e
+              - generic [ref=e198]: r
+          - paragraph [ref=e199]: 4 big ones
+        - list [ref=e200]:
+          - listitem [ref=e201]:
+            - img "A five-disk cipher device from the 1920s" [ref=e203]
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - heading "Workshops" [level=3] [ref=e206]
+                - generic [ref=e207]: Four a term
+              - paragraph [ref=e208]: "Three hours, hands on, one subject: web exploitation, reverse engineering, forensics or network defence."
+          - listitem [ref=e209]:
+            - img "Colossus computer at Bletchley Park" [ref=e211]
+            - generic [ref=e212]:
+              - generic [ref=e213]:
+                - heading "Talks" [level=3] [ref=e214]
+                - generic [ref=e215]: Monthly
+              - paragraph [ref=e216]: Alumni and practitioners on real incidents, research and careers, followed by questions they actually answer.
+          - listitem [ref=e217]:
+            - img "An M4 Enigma machine" [ref=e219]
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - heading "AirGap CTF" [level=3] [ref=e222]
+                - generic [ref=e223]: January
+              - paragraph [ref=e224]: Our own 24-hour jeopardy CTF, written by members and open to every college in Delhi NCR.
+              - paragraph [ref=e225]: Challenge authors get credited on the scoreboard.
+          - listitem [ref=e226]:
+            - img "A brass cipher disk" [ref=e228]
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - heading "Awareness drives" [level=3] [ref=e231]
+                - generic [ref=e232]: October
+              - paragraph [ref=e233]: Phishing drills and password clinics for the whole campus during Cybersecurity Awareness Month.
+    - generic [ref=e235]:
+      - generic [ref=e236]:
+        - heading "From the archive" [level=2] [ref=e237]
+        - generic [ref=e238]:
+          - button "Enigma M4" [pressed] [ref=e239] [cursor=pointer]
+          - button "Plugboard" [ref=e243] [cursor=pointer]
+          - button "Rotors" [ref=e247] [cursor=pointer]
+          - button "Colossus" [ref=e251] [cursor=pointer]
+          - button "Cipher disk" [ref=e255] [cursor=pointer]
+      - generic [ref=e263]:
+        - img "M4 Enigma machine" [ref=e264]
+        - img "Enigma plugboard" [ref=e265]
+        - img "Enigma rotors" [ref=e266]
+        - img "Colossus, 1945" [ref=e267]
+        - img "Cipher disk" [ref=e268]
+      - paragraph [ref=e269]: The four-rotor naval Enigma, used by U-boats from 1942. This one was captured with U-505 in 1944.
+    - generic [ref=e270]:
+      - generic [ref=e271]:
+        - heading "The people at the keyboard." [level=2] [ref=e272]:
+          - generic [aria-hidden] [ref=e273]:
+            - generic [ref=e274]: T
+            - generic [ref=e275]: h
+            - generic [ref=e276]: e
+          - generic [aria-hidden] [ref=e277]:
+            - generic [ref=e278]: p
+            - generic [ref=e279]: e
+            - generic [ref=e280]: o
+            - generic [ref=e281]: p
+            - generic [ref=e282]: l
+            - generic [ref=e283]: e
+          - generic [aria-hidden] [ref=e284]:
+            - generic [ref=e285]: a
+            - generic [ref=e286]: t
+          - generic [aria-hidden] [ref=e287]:
+            - generic [ref=e288]: t
+            - generic [ref=e289]: h
+            - generic [ref=e290]: e
+          - generic [aria-hidden] [ref=e291]:
+            - generic [ref=e292]: k
+            - generic [ref=e293]: e
+            - generic [ref=e294]: "y"
+            - generic [ref=e295]: b
+            - generic [ref=e296]: o
+            - generic [ref=e297]: a
+            - generic [ref=e298]: r
+            - generic [ref=e299]: d
+            - generic [ref=e300]: .
+        - link "Meet the whole team" [ref=e301] [cursor=pointer]:
+          - /url: team.html
+      - list [ref=e306]:
+        - listitem [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]: Aarav Mehta
+            - generic [ref=e310]: President
+            - generic [ref=e311]: CSE, 2027
+        - listitem [ref=e312]:
+          - generic [ref=e313]:
+            - generic [ref=e314]: Ishita Rao
+            - generic [ref=e315]: Vice-president
+            - generic [ref=e316]: IT, 2027
+        - listitem [ref=e317]:
+          - generic [ref=e318]:
+            - generic [ref=e319]: Kabir Singh
+            - generic [ref=e320]: CTF captain
+            - generic [ref=e321]: CSE, 2028
+        - listitem [ref=e322]:
+          - generic [ref=e323]:
+            - generic [ref=e324]: Meher Kaur
+            - generic [ref=e325]: Web exploitation lead
+            - generic [ref=e326]: IT, 2028
+        - listitem [ref=e327]:
+          - generic [ref=e328]:
+            - generic [ref=e329]: Rohan Verma
+            - generic [ref=e330]: Reverse engineering lead
+            - generic [ref=e331]: ECE, 2027
+        - listitem [ref=e332]:
+          - generic [ref=e333]:
+            - generic [ref=e334]: Tanya Bansal
+            - generic [ref=e335]: Forensics lead
+            - generic [ref=e336]: CSE, 2028
+        - listitem [ref=e337]:
+          - generic [ref=e338]:
+            - generic [ref=e339]: Zoya Khan
+            - generic [ref=e340]: Design and the newsletter
+            - generic [ref=e341]: CSE, 2029
+    - generic [ref=e344]:
+      - generic [ref=e345]:
+        - heading "On the calendar." [level=2] [ref=e346]:
+          - generic [aria-hidden] [ref=e347]:
+            - generic [ref=e348]: O
+            - generic [ref=e349]: "n"
+          - generic [aria-hidden] [ref=e350]:
+            - generic [ref=e351]: t
+            - generic [ref=e352]: h
+            - generic [ref=e353]: e
+          - generic [aria-hidden] [ref=e354]:
+            - generic [ref=e355]: c
+            - generic [ref=e356]: a
+            - generic [ref=e357]: l
+            - generic [ref=e358]: e
+            - generic [ref=e359]: "n"
+            - generic [ref=e360]: d
+            - generic [ref=e361]: a
+            - generic [ref=e362]: r
+            - generic [ref=e363]: .
+        - link "All events" [ref=e364] [cursor=pointer]:
+          - /url: events.html
+      - generic [ref=e369]:
+        - article [ref=e370]:
+          - img "Punched card" [ref=e372]
+          - paragraph [ref=e373]:
+            - text: 23 Oct
+            - generic [ref=e374]: Friday, 5:30 pm · USICT lab
+          - 'heading "Flag Night: web week" [level=3] [ref=e375]'
+          - paragraph [ref=e376]: CTF practice · open to all
+        - article [ref=e377]:
+          - img "Five-disk cipher" [ref=e379]
+          - paragraph [ref=e380]:
+            - text: 7 Nov
+            - generic [ref=e381]: Saturday, 10 am · Seminar hall
+          - heading "Breaking the web by hand" [level=3] [ref=e382]
+          - paragraph [ref=e383]: Workshop · OWASP Top 10, no scanners
+        - article [ref=e384]:
+          - img "Punched card archive" [ref=e386]
+          - paragraph [ref=e387]:
+            - text: 20 Nov
+            - generic [ref=e388]: Friday, 4 pm · Auditorium
+          - heading "Anatomy of a phishing kit" [level=3] [ref=e389]
+          - paragraph [ref=e390]: Talk · how they are built and caught
+        - article [ref=e391]:
+          - img "Enigma rotors" [ref=e393]
+          - paragraph [ref=e394]:
+            - text: 5 Dec
+            - generic [ref=e395]: Saturday, 10 am · USICT lab
+          - heading "Reversing 101 with Ghidra" [level=3] [ref=e396]
+          - paragraph [ref=e397]: Workshop · bring a laptop
+        - article [ref=e398]:
+          - img "Enigma M4" [ref=e400]
+          - paragraph [ref=e401]:
+            - text: 16 Jan
+            - generic [ref=e402]: Saturday to Sunday, 24 hours · online and on campus
+          - heading "AirGap CTF 2027" [level=3] [ref=e403]
+          - paragraph [ref=e404]: Our flagship CTF · teams of up to four
+    - generic [ref=e406]:
+      - generic [ref=e407]:
+        - heading "Cross the gap." [level=2] [ref=e408]:
+          - generic [aria-hidden] [ref=e409]:
+            - generic [ref=e410]: C
+            - generic [ref=e411]: r
+            - generic [ref=e412]: o
+            - generic [ref=e413]: s
+            - generic [ref=e414]: s
+          - generic [aria-hidden] [ref=e415]:
+            - generic [ref=e416]: t
+            - generic [ref=e417]: h
+            - generic [ref=e418]: e
+          - generic [aria-hidden] [ref=e419]:
+            - generic [ref=e420]: g
+            - generic [ref=e421]: a
+            - generic [ref=e422]: p
+            - generic [ref=e423]: .
+        - paragraph [ref=e424]: One small challenge a day, solved in your browser. Decode it and, for once, the two hands touch.
+        - paragraph [ref=e425]: Answers are checked on this page. Reading the source is allowed; that is half of security.
+      - generic [ref=e426]:
+        - paragraph [ref=e427]: Bytes, written out
+        - code [ref=e429]: 75 73 69 63 74 7b 68 65 78 5f 6d 61 72 6b 73 5f 74 68 65 5f 73 70 6f 74 7d
+        - generic [ref=e430]:
+          - generic [ref=e431]: Your flag
+          - textbox "Your flag" [active] [ref=e432]:
+            - /placeholder: "usict{...}"
+            - text: "usict{hex_marks_the_spot}"
+          - button "Check flag" [ref=e433] [cursor=pointer]
+        - button "Show a hint" [ref=e438] [cursor=pointer]
+        - paragraph [ref=e439]: Flag accepted. For a moment, the gap is closed. Show this screen at Flag Night for a sticker.
+    - generic [ref=e441]:
+      - generic [ref=e442]:
+        - heading "The Air Gap, monthly." [level=2] [ref=e443]:
+          - generic [aria-hidden] [ref=e444]:
+            - generic [ref=e445]: T
+            - generic [ref=e446]: h
+            - generic [ref=e447]: e
+          - generic [aria-hidden] [ref=e448]:
+            - generic [ref=e449]: A
+            - generic [ref=e450]: i
+            - generic [ref=e451]: r
+          - generic [aria-hidden] [ref=e452]:
+            - generic [ref=e453]: G
+            - generic [ref=e454]: a
+            - generic [ref=e455]: p
+            - generic [ref=e456]: ","
+          - generic [aria-hidden] [ref=e457]:
+            - generic [ref=e458]: m
+            - generic [ref=e459]: o
+            - generic [ref=e460]: "n"
+            - generic [ref=e461]: t
+            - generic [ref=e462]: h
+            - generic [ref=e463]: l
+            - generic [ref=e464]: "y"
+            - generic [ref=e465]: .
+        - paragraph [ref=e466]: "Our newsletter: one bug explained, one tool worth learning, and what is on at the club. Short enough to read between classes."
+        - generic [ref=e467]:
+          - generic [ref=e468]: Email address
+          - textbox "Email address" [ref=e469]:
+            - /placeholder: you@ipu.ac.in
+          - button "Subscribe" [ref=e470] [cursor=pointer]
+          - paragraph [ref=e475]
+      - article [ref=e476]:
+        - img "Brass cipher disk" [ref=e478]
+        - paragraph [ref=e479]: Issue 12 · October 2026
+        - heading "Passkeys are coming to your login page" [level=3] [ref=e480]
+        - paragraph [ref=e481]: What a passkey actually stores, why phishing pages cannot replay it, and the one setting to change on your phone this week.
+        - link "Read past issues" [ref=e482] [cursor=pointer]:
+          - /url: newsletter.html
+    - link "Recruitment for 2026–27 is open until 31 October. Tell us what you want to break. Join" [ref=e484] [cursor=pointer]:
+      - /url: team.html#join
+      - generic [ref=e485]: Recruitment for 2026–27 is open until 31 October. Tell us what you want to break.
+      - generic [ref=e488]: Join
+  - contentinfo [ref=e489]:
+    - paragraph [aria-hidden] [ref=e493]: USICT Cybersec
+    - generic [ref=e494]:
+      - generic [ref=e495]:
+        - heading "Club" [level=3] [ref=e496]
+        - list [ref=e497]:
+          - listitem [ref=e498]:
+            - link "About" [ref=e499] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=e500]:
+            - link "Team" [ref=e501] [cursor=pointer]:
+              - /url: team.html
+          - listitem [ref=e502]:
+            - link "Join" [ref=e503] [cursor=pointer]:
+              - /url: team.html#join
+      - generic [ref=e504]:
+        - heading "Happening" [level=3] [ref=e505]
+        - list [ref=e506]:
+          - listitem [ref=e507]:
+            - link "Events" [ref=e508] [cursor=pointer]:
+              - /url: events.html
+          - listitem [ref=e509]:
+            - link "Today's flag" [ref=e510] [cursor=pointer]:
+              - /url: index.html#flag
+          - listitem [ref=e511]:
+            - link "The Air Gap" [ref=e512] [cursor=pointer]:
+              - /url: newsletter.html
+      - generic [ref=e513]:
+        - heading "Elsewhere" [level=3] [ref=e514]
+        - list [ref=e515]:
+          - listitem [ref=e516]:
+            - link "Instagram" [ref=e517] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e518]:
+            - link "LinkedIn" [ref=e519] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e520]:
+            - link "GitHub" [ref=e521] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e522]:
+            - link "Discord" [ref=e523] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e524]:
+        - heading "This site" [level=3] [ref=e525]
+        - list [ref=e526]:
+          - listitem [ref=e527]:
+            - link "Inspiration board" [ref=e528] [cursor=pointer]:
+              - /url: inspiration.html
+          - listitem [ref=e529]:
+            - link "Code of conduct" [ref=e530] [cursor=pointer]:
+              - /url: about.html#code
+      - generic [ref=e531]:
+        - heading "Find us" [level=3] [ref=e532]
+        - paragraph [ref=e533]: University School of Information, Communication and Technology, Guru Gobind Singh Indraprastha University, Sector 16C, Dwarka, New Delhi 110078.
+        - paragraph [ref=e534]: Flag Night is every Friday at 5:30 pm.
+    - generic [ref=e535]:
+      - paragraph [ref=e536]: © 2026 USICT Cybersecurity Club. A student club. We only test systems we own or are invited to test.
+      - paragraph [ref=e537]: Names, dates and issues on this preview are sample content.
+    - paragraph [ref=e538]:
+      - text: "Pictures:"
+      - link "“The Creation of Adam”" [ref=e539] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Michelangelo_-_Creation_of_Adam_(cropped).jpg
+      - text: and two details by Michelangelo,
+      - link "public domain" [ref=e540] [cursor=pointer]:
+        - /url: https://creativecommons.org/publicdomain/mark/1.0/
+      - text: ", via Wikimedia Commons (the particle hands are sampled from it);"
+      - link "“M4 Enigma machine, U-505”" [ref=e541] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/w/index.php?curid=35135529
+      - text: by Daderot,
+      - link "CC0" [ref=e542] [cursor=pointer]:
+        - /url: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+      - text: ;
+      - link "“Steckerboard on Enigma Machine”" [ref=e543] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/w/index.php?curid=95442354
+      - text: by School of Mathematics, University of Manchester,
+      - link "CC BY 2.0" [ref=e544] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by/2.0/
+      - text: ;
+      - link "“Enigma Machine Rotor Variations, Bletchley Park”" [ref=e545] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Enigma_Machine_Rotor_Variations_on_display_at_Bletchley_Park_in_2022.jpg
+      - text: by Vintage Fan 5678,
+      - link "CC BY 4.0" [ref=e546] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by/4.0
+      - text: ;
+      - link "“Wartime photo of Colossus 10”" [ref=e547] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:Wartime_photo_of_Colossus_10.png
+      - text: (1945),
+      - link "public domain" [ref=e548] [cursor=pointer]:
+        - /url: https://creativecommons.org/publicdomain/mark/1.0/
+      - text: ;
+      - link "“Five Disk Cipher prototype by R. R. Landsberger”" [ref=e549] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/w/index.php?curid=27160092
+      - text: by Daderot,
+      - link "CC0" [ref=e550] [cursor=pointer]:
+        - /url: https://creativecommons.org/publicdomain/zero/1.0/deed.en/
+      - text: ;
+      - link "“CipherDisk2000”" [ref=e551] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:CipherDisk2000.jpg
+      - text: by Hubert Berberich,
+      - link "public domain" [ref=e552] [cursor=pointer]:
+        - /url: https://creativecommons.org/publicdomain/mark/1.0/
+      - text: ;
+      - link "“Punched card”" [ref=e553] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/w/index.php?curid=1406914
+      - text: by Mutatis mutandis,
+      - link "CC BY 2.5" [ref=e554] [cursor=pointer]:
+        - /url: https://creativecommons.org/licenses/by/2.5/
+      - text: ;
+      - link "“IBM card storage”" [ref=e555] [cursor=pointer]:
+        - /url: https://commons.wikimedia.org/wiki/File:IBM_card_storage.NARA.jpg
+      - text: ", NARA,"
+      - link "public domain" [ref=e556] [cursor=pointer]:
+        - /url: https://creativecommons.org/publicdomain/mark/1.0/
+      - text: . All via Wikimedia Commons.

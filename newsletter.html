@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>The Air Gap · USICT Cybersec</title>
+<meta name="description" content="The Air Gap, the monthly newsletter of the USICT Cybersecurity Club.">
+<meta name="theme-color" content="#030303">
+<script>(function(){var r=document.documentElement;r.classList.add('js');try{var t=localStorage.getItem('theme');if(t)r.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<canvas id="stage" data-start="inner" aria-hidden="true"></canvas>
+
+<header class="nav at-top">
+  <a class="mark" href="index.html" aria-label="USICT Cybersecurity Club, home"><span class="glyph" aria-hidden="true"><i></i><i></i></span>USICT Cybersec</a>
+  <nav class="nav-links" aria-label="Main">
+    <a class="hide-sm" href="events.html">Events</a>
+    <a class="hide-sm" href="team.html">Team</a>
+    <a class="hide-sm" href="about.html">About</a>
+    <a class="hide-sm" href="newsletter.html" aria-current="page">Newsletter</a>
+    <button class="theme-toggle" type="button" aria-label="Switch theme"></button>
+    <span class="hide-sm"><a class="btn " href="team.html#join"><span class="btn-label">Join</span><span class="btn-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></a></span>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="drawer">Menu</button>
+  </nav>
+</header>
+<div class="drawer" id="drawer">
+  <a href="index.html">Home</a>
+  <a href="events.html">Events</a>
+  <a href="team.html">Team</a>
+  <a href="about.html">About</a>
+  <a href="newsletter.html">Newsletter</a>
+  <a href="team.html#join">Join</a>
+</div>
+<main>
+<section class="page-hero wrap" data-field="base" data-scene="inner">
+  <h1>The Air Gap.</h1>
+  <p class="lead" data-hero-in data-hero-fade>Once a month: one bug explained, one tool worth learning, and what is on at the club. Short enough to read between classes.</p>
+  <form class="signup" data-hero-in novalidate>
+    <label for="nl-email">Email address</label>
+    <input id="nl-email" type="email" name="email" autocomplete="email" placeholder="you@ipu.ac.in" required>
+    <button class="btn" type="submit"><span class="btn-label">Subscribe</span><span class="btn-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg></span></button>
+    <p class="signup-msg" aria-live="polite"></p>
+  </form>
+</section>
+
+<section class="section wrap" data-field="base" data-scene="field">
+  <div class="feature" data-rv-group>
+    <div class="pic shutter" data-rv style="aspect-ratio: 16 / 10"><img src="assets/img/punched-card.jpg" alt="A punched card" width="1600" height="772" loading="lazy"></div>
+    <div class="txt">
+      <h2 class="split-me">Every issue, three parts.</h2>
+      <dl class="faq" style="display:block">
+        <div data-rv style="margin-top:1.5rem"><dt><span class="bullet" aria-hidden="true"><i></i><i></i></span>One bug</dt><dd>A real vulnerability, explained so a first-year can follow it, with the fix.</dd></div>
+        <div data-rv style="margin-top:1.5rem"><dt><span class="bullet" aria-hidden="true"><i></i><i></i></span>One tool</dt><dd>Something worth installing this week, and the three commands you actually need.</dd></div>
+        <div data-rv style="margin-top:1.5rem"><dt><span class="bullet" aria-hidden="true"><i></i><i></i></span>On at the club</dt><dd>The month's Flag Nights, workshops and talks, and who solved what.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap invert" data-field="invert" data-scene="field">
+  <div class="roster-head"><h2 class="split-me">Past issues.</h2></div>
+  <ul class="issues" data-rv-group>
+    <li data-rv><span class="no tnum">12</span><div class="pic"><img src="assets/img/cipher-disk.jpg" alt="" width="1200" height="1200" loading="lazy"></div><div><h3>Passkeys are coming to your login page</h3><p>What a passkey stores, why a phishing page cannot replay it, and the one phone setting to change.</p></div><span class="m">October 2026</span></li>
+    <li data-rv><span class="no tnum">11</span><div class="pic"><img src="assets/img/plugboard.jpg" alt="" width="1400" height="928" loading="lazy"></div><div><h3>What the campus Wi-Fi portal can see</h3><p>HTTPS, DNS and the difference between what is encrypted and what is merely hidden.</p></div><span class="m">September 2026</span></li>
+    <li data-rv><span class="no tnum">10</span><div class="pic"><img src="assets/img/punched-card.jpg" alt="" width="1600" height="772" loading="lazy"></div><div><h3>Your first CTF: a field guide</h3><p>Categories, tools, and how to read a challenge description for what it is not saying.</p></div><span class="m">August 2026</span></li>
+    <li data-rv><span class="no tnum">9</span><div class="pic"><img src="assets/img/card-storage.jpg" alt="" width="1600" height="1263" loading="lazy"></div><div><h3>The bug in the login form</h3><p>A walk through SQL injection, from a single quote to a full table, and the one-line fix.</p></div><span class="m">July 2026</span></li>
+    <li data-rv><span class="no tnum">8</span><div class="pic"><img src="assets/img/enigma-m4.jpg" alt="" width="1100" height="1510" loading="lazy"></div><div><h3>Why Enigma fell</h3><p>Not the maths: the habits. Repeated keys, predictable greetings and operators in a hurry.</p></div><span class="m">June 2026</span></li>
+    <li data-rv><span class="no tnum">7</span><div class="pic"><img src="assets/img/rotors.jpg" alt="" width="1400" height="1050" loading="lazy"></div><div><h3>Strings, the first command</h3><p>The fastest reversing tool you already have, and what it found in last month's crackme.</p></div><span class="m">May 2026</span></li>
+  </ul>
+  <p class="note-sample">Issue titles on this preview are sample content.</p>
+</section>
+</main>
+
+<footer class="site-foot wrap" data-field="base">
+  <div class="bigmark" aria-hidden="true"><i></i><i></i></div>
+  <p class="bigword" aria-hidden="true">USICT Cybersec</p>
+  <div class="foot-grid">
+    <div><h3>Club</h3><ul><li><a href="about.html">About</a></li><li><a href="team.html">Team</a></li><li><a href="team.html#join">Join</a></li></ul></div>
+    <div><h3>Happening</h3><ul><li><a href="events.html">Events</a></li><li><a href="index.html#flag">Today's flag</a></li><li><a href="newsletter.html">The Air Gap</a></li></ul></div>
+    <div><h3>Elsewhere</h3><ul><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">GitHub</a></li><li><a href="#">Discord</a></li></ul></div>
+    <div><h3>This site</h3><ul><li><a href="inspiration.html">Inspiration board</a></li><li><a href="about.html#code">Code of conduct</a></li></ul></div>
+    <div class="contact"><h3>Find us</h3><p>University School of Information, Communication and Technology, Guru Gobind Singh Indraprastha University, Sector 16C, Dwarka, New Delhi 110078.</p><p style="margin-top:.6rem">Flag Night is every Friday at 5:30 pm.</p></div>
+  </div>
+  <div class="foot-last">
+    <p>© <span class="year">2026</span> USICT Cybersecurity Club. A student club. We only test systems we own or are invited to test.</p>
+    <p>Names, dates and issues on this preview are sample content.</p>
+  </div>
+  <p class="credits">Pictures: <a href="https://commons.wikimedia.org/wiki/File:Michelangelo_-_Creation_of_Adam_(cropped).jpg">“The Creation of Adam”</a> and two details by Michelangelo, <a href="https://creativecommons.org/publicdomain/mark/1.0/">public domain</a>, via Wikimedia Commons (the particle hands are sampled from it); <a href="https://commons.wikimedia.org/w/index.php?curid=35135529">“M4 Enigma machine, U-505”</a> by Daderot, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>; <a href="https://commons.wikimedia.org/w/index.php?curid=95442354">“Steckerboard on Enigma Machine”</a> by School of Mathematics, University of Manchester, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Enigma_Machine_Rotor_Variations_on_display_at_Bletchley_Park_in_2022.jpg">“Enigma Machine Rotor Variations, Bletchley Park”</a> by Vintage Fan 5678, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Wartime_photo_of_Colossus_10.png">“Wartime photo of Colossus 10”</a> (1945), <a href="https://creativecommons.org/publicdomain/mark/1.0/">public domain</a>; <a href="https://commons.wikimedia.org/w/index.php?curid=27160092">“Five Disk Cipher prototype by R. R. Landsberger”</a> by Daderot, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en/">CC0</a>; <a href="https://commons.wikimedia.org/wiki/File:CipherDisk2000.jpg">“CipherDisk2000”</a> by Hubert Berberich, <a href="https://creativecommons.org/publicdomain/mark/1.0/">public domain</a>; <a href="https://commons.wikimedia.org/w/index.php?curid=1406914">“Punched card”</a> by Mutatis mutandis, <a href="https://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>; <a href="https://commons.wikimedia.org/wiki/File:IBM_card_storage.NARA.jpg">“IBM card storage”</a>, NARA, <a href="https://creativecommons.org/publicdomain/mark/1.0/">public domain</a>. All via Wikimedia Commons.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="assets/hands.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
